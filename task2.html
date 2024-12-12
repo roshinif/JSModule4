@@ -7,10 +7,12 @@
 </head>
 <body>
   <h1>Search for a TV Series</h1>
-  <form action="https://api.tvmaze.com/search/shows" method="get" target="_blank">
+  <form id="searchForm">
     <label for="query">Enter TV Series Name:</label>
     <input id="query" name="q" type="text" placeholder="e.g., Butterfly" required autocomplete="off">
-    <input type="submit" value="Search">
+    <button type="submit">Search</button>
   </form>
+
+  <script src="task2.js"></script>
 </body>
 </html>

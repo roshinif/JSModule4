@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Series Search</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    article {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #f9f9f9;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    h2 {
+      color: #333;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Search for a TV Series</h1>
+  <form id="searchForm">
+    <label for="query">Enter TV Series Name:</label>
+    <input id="query" name="q" type="text" placeholder="e.g., Butterfly" required autocomplete="off">
+    <button type="submit">Search</button>
+  </form>
+
+  <div id="results"></div>
+
+  <script src="task3.js"></script>
+</body>
+</html>
